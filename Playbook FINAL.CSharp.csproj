@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D4ECC38-681D-10B1-613B-6269955BAE84}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.4.2f2</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_2;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_2;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Jogo1\Assets\Scripts\MenuPause.cs" />
+    <Compile Include="Assets\Jogo1\Assets\Scripts\Musica.cs" />
+    <Compile Include="Assets\Jogo1\Assets\Scripts\ObjetoCorreto.cs" />
+    <Compile Include="Assets\Jogo1\Assets\Scripts\ObjetoInterativo.cs" />
+    <Compile Include="Assets\Jogo1\Assets\Scripts\PauseMini1.cs" />
+    <Compile Include="Assets\Jogo1\Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Jogo1\Assets\Scripts\popUp.cs" />
+    <Compile Include="Assets\Jogo2\Scripts\Fade1.cs" />
+    <Compile Include="Assets\Jogo2\Scripts\Fade2.cs" />
+    <Compile Include="Assets\Jogo2\Scripts\Gerenciador2_1.cs" />
+    <Compile Include="Assets\Jogo2\Scripts\Gerenciador2op2.cs" />
+    <Compile Include="Assets\Jogo2\Scripts\Gerenciador2op3.cs" />
+    <Compile Include="Assets\Jogo2\Scripts\Gerenciadorop2.cs" />
+    <Compile Include="Assets\Jogo2\Scripts\Gerenciadorop3.cs" />
+    <Compile Include="Assets\Jogo2\Scripts\Timer5.cs" />
+    <Compile Include="Assets\Jogo2\Scripts\gerenciador2_2.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\Conjuntos_destruidor.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\Gerenciador.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\Ilustracoes.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\MenuPause1.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\Obstaculos.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\Pena.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\Player.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\Player1.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\RendererExtencions.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\Score.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\ScrollingScript.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\SpawnMeioObstaculo.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\Spawn_brinquedos.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\Spawn_pena.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\Spawn_racoes.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\Timer1.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\abrir_menu.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\brinquedo.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\racao_grande.cs" />
+    <Compile Include="Assets\Jogo3\Scripts\racao_pequena.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase1\Botao1.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase1\Botao2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase1\Botao3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase1\Botao4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase1\Fase1.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase1\Lamp1.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase1\Lamp2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase1\Lamp3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase1\Lamp4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase1\MenuDerrota.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase1\MenuVitoria.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase1\Vitoria.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase2\Botao1_2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase2\Botao2_2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase2\Botao3_2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase2\Botao4_2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase2\Botao5_2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase2\Fase2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase2\Lamp1_2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase2\Lamp2_2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase2\Lamp3_2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase2\Lamp4_2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase2\Lamp5_2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase2\MenuDerrota_2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase2\MenuVitoria_2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase2\Vitoria_2.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase3\Botao1_3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase3\Botao2_3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase3\Botao3_3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase3\Botao4_3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase3\Botao5_3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase3\Fase3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase3\Lamp1_3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase3\Lamp2_3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase3\Lamp3_3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase3\Lamp4_3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase3\Lamp5_3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase3\MenuDerrota_3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase3\MenuVitoria_3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase3\Vitoria_3.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\Botao1_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\Botao2_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\Botao3_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\Botao4_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\Botao5_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\Botao6_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\Fase4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\Lamp1_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\Lamp2_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\Lamp3_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\Lamp4_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\Lamp5_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\Lamp6_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\MenuDerrota_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\MenuVitoria_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Fase4\Vitoria_4.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Pause\AbrePause.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Pause\Pause.cs" />
+    <Compile Include="Assets\Jogo4\Scripts\Pause\WinLoose.cs" />
+    <Compile Include="Assets\Jogo5\Script\Abrir_menu.cs" />
+    <Compile Include="Assets\Jogo5\Script\DogMovement.cs" />
+    <Compile Include="Assets\Jogo5\Script\Energia.cs" />
+    <Compile Include="Assets\Jogo5\Script\FecharJogo.cs" />
+    <Compile Include="Assets\Jogo5\Script\Lixeira.cs" />
+    <Compile Include="Assets\Jogo5\Script\Lixo.cs" />
+    <Compile Include="Assets\Jogo5\Script\MenuPrincipal.cs" />
+    <Compile Include="Assets\Jogo5\Script\Pedra.cs" />
+    <Compile Include="Assets\Jogo5\Script\Pula.cs" />
+    <Compile Include="Assets\Jogo5\Script\RendererExtencions1.cs" />
+    <Compile Include="Assets\Jogo5\Script\Score1.cs" />
+    <Compile Include="Assets\Jogo5\Script\ScriptMenu.cs" />
+    <Compile Include="Assets\Jogo5\Script\ScrollingScript1.cs" />
+    <Compile Include="Assets\Jogo5\Script\SpawnLixeira.cs" />
+    <Compile Include="Assets\Jogo5\Script\SpawnLixo.cs" />
+    <Compile Include="Assets\Jogo5\Script\SpawnPedra.cs" />
+    <Compile Include="Assets\Livro\scripts\About.cs" />
+    <Compile Include="Assets\Livro\scripts\AutoFlip.cs" />
+    <Compile Include="Assets\Livro\scripts\Book.cs" />
+    <Compile Include="Assets\Livro\scripts\Book2.cs" />
+    <Compile Include="Assets\Livro\scripts\Camira.cs" />
+    <Compile Include="Assets\Livro\scripts\Camira1.cs" />
+    <Compile Include="Assets\Livro\scripts\ControlaFase.cs" />
+    <Compile Include="Assets\Livro\scripts\FechaPreload.cs" />
+    <Compile Include="Assets\Livro\scripts\HudScript.cs" />
+    <Compile Include="Assets\Livro\scripts\MainScript.cs" />
+    <Compile Include="Assets\Livro\scripts\PreJogo.cs" />
+    <Compile Include="Assets\Livro\scripts\SelecPage.cs" />
+    <Compile Include="Assets\Livro\scripts\SelecaoFase.cs" />
+    <Compile Include="Assets\Livro\scripts\Urls.cs" />
+    <Compile Include="Assets\Livro\scripts\Urls2.cs" />
+    <Compile Include="Assets\Livro\scripts\VoltarPag.cs" />
+    <Compile Include="Assets\Livro\scripts\Zoom.cs" />
+    <Compile Include="Assets\Livro\scripts\teste.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

@@ -1,0 +1,4039 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - About
+    - AbrePause
+    - Abrir_menu
+    - Book
+    - Book2
+    - Botao1
+    - Botao1_2
+    - Botao1_3
+    - Botao1_4
+    - Botao2
+    - Botao2_2
+    - Botao2_3
+    - Botao2_4
+    - Botao3
+    - Botao3_2
+    - Botao3_3
+    - Botao3_4
+    - Botao4
+    - Botao4_2
+    - Botao4_3
+    - Botao4_4
+    - Botao5_2
+    - Botao5_3
+    - Botao5_4
+    - Botao6_4
+    - Camira
+    - Camira1
+    - Conjuntos_destruidor
+    - ControlaFase
+    - DogMovement
+    - Energia
+    - Fade1
+    - Fade2
+    - Fase1
+    - Fase2
+    - Fase3
+    - Fase4
+    - FechaPreload
+    - Gerenciador
+    - Gerenciador2_1
+    - Gerenciador2op2
+    - Gerenciador2op3
+    - Gerenciadorop2
+    - Gerenciadorop3
+    - HudScript
+    - Lamp1
+    - Lamp1_2
+    - Lamp1_3
+    - Lamp1_4
+    - Lamp2
+    - Lamp2_2
+    - Lamp2_3
+    - Lamp2_4
+    - Lamp3
+    - Lamp3_2
+    - Lamp3_3
+    - Lamp3_4
+    - Lamp4
+    - Lamp4_2
+    - Lamp4_3
+    - Lamp4_4
+    - Lamp5_2
+    - Lamp5_3
+    - Lamp5_4
+    - Lamp6_4
+    - Lixeira
+    - Lixo
+    - MenuPause
+    - MenuPause1
+    - Musica
+    - ObjetoCorreto
+    - ObjetoInterativo
+    - Obstaculos
+    - Pause
+    - PauseMini1
+    - Pedra
+    - Pena
+    - Player
+    - Player1
+    - PreJogo
+    - Pula
+    - Score
+    - Score1
+    - ScriptMenu
+    - ScrollingScript
+    - ScrollingScript1
+    - SelecPage
+    - SelecaoFase
+    - SpawnLixeira
+    - SpawnLixo
+    - SpawnMeioObstaculo
+    - SpawnPedra
+    - Spawn_brinquedos
+    - Spawn_pena
+    - Spawn_racoes
+    - Timer
+    - Timer5
+    - Urls
+    - Urls2
+    - Vitoria
+    - Vitoria_2
+    - Vitoria_3
+    - Vitoria_4
+    - VoltarPag
+    - WinLoose
+    - Zoom
+    - abrir_menu
+    - brinquedo
+    - gerenciador2_2
+    - popUp
+    - racao_grande
+    - racao_pequena
+    - teste
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.EventTrigger
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.EventSystems.TouchInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Text
+  serializedClasses:
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
+    UnityEngine.UI:
+    - UnityEngine.EventSystems.EventTrigger/Entry
+    - UnityEngine.EventSystems.EventTrigger/TriggerEvent
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve: []
+  sceneClasses:
+    Assets/Jogo5/Cenas/Game.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 68
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16678}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18598}
+    - Class: 114
+      Script: {instanceID: 19332}
+    - Class: 114
+      Script: {instanceID: 19494}
+    - Class: 114
+      Script: {instanceID: 19744}
+    - Class: 114
+      Script: {instanceID: 20020}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 20930}
+    - Class: 114
+      Script: {instanceID: 21016}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21390}
+    - Class: 114
+      Script: {instanceID: 21578}
+    - Class: 114
+      Script: {instanceID: 21630}
+    - Class: 114
+      Script: {instanceID: 22524}
+    - Class: 114
+      Script: {instanceID: 22578}
+    - Class: 114
+      Script: {instanceID: 22694}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo1/assets/Cenas/CenaJogo1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16678}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17282}
+    - Class: 114
+      Script: {instanceID: 17602}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18104}
+    - Class: 114
+      Script: {instanceID: 18586}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21262}
+    - Class: 114
+      Script: {instanceID: 21508}
+    - Class: 114
+      Script: {instanceID: 21540}
+    - Class: 114
+      Script: {instanceID: 22252}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo1/assets/Cenas/CenaJogo2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16678}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17282}
+    - Class: 114
+      Script: {instanceID: 17602}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18104}
+    - Class: 114
+      Script: {instanceID: 18586}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21262}
+    - Class: 114
+      Script: {instanceID: 21508}
+    - Class: 114
+      Script: {instanceID: 21540}
+    - Class: 114
+      Script: {instanceID: 22252}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo1/assets/Cenas/CenaJogo3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16678}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17282}
+    - Class: 114
+      Script: {instanceID: 17602}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18104}
+    - Class: 114
+      Script: {instanceID: 18586}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21262}
+    - Class: 114
+      Script: {instanceID: 21508}
+    - Class: 114
+      Script: {instanceID: 21540}
+    - Class: 114
+      Script: {instanceID: 22252}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo2/Cenas/memoria.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 16968}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18834}
+    - Class: 114
+      Script: {instanceID: 19944}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo2/Cenas/memoria2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18834}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21996}
+    - Class: 114
+      Script: {instanceID: 22208}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo2/Cenas/memoria2op2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18834}
+    - Class: 114
+      Script: {instanceID: 20496}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21996}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo2/Cenas/memoria2op3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18834}
+    - Class: 114
+      Script: {instanceID: 18984}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21996}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo2/Cenas/memoriaop2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18834}
+    - Class: 114
+      Script: {instanceID: 19944}
+    - Class: 114
+      Script: {instanceID: 20198}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo2/Cenas/memoriaop3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18834}
+    - Class: 114
+      Script: {instanceID: 19944}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 20976}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo3/Cenas/sena.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 60
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 68
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16678}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 16704}
+    - Class: 114
+      Script: {instanceID: 16808}
+    - Class: 114
+      Script: {instanceID: 16890}
+    - Class: 114
+      Script: {instanceID: 17110}
+    - Class: 114
+      Script: {instanceID: 17240}
+    - Class: 114
+      Script: {instanceID: 17474}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18866}
+    - Class: 114
+      Script: {instanceID: 19272}
+    - Class: 114
+      Script: {instanceID: 19364}
+    - Class: 114
+      Script: {instanceID: 19454}
+    - Class: 114
+      Script: {instanceID: 19568}
+    - Class: 114
+      Script: {instanceID: 19734}
+    - Class: 114
+      Script: {instanceID: 19848}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21018}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21802}
+    - Class: 114
+      Script: {instanceID: 22370}
+    - Class: 114
+      Script: {instanceID: 22402}
+    - Class: 114
+      Script: {instanceID: 22894}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo4/Cenas/Fase1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 16742}
+    - Class: 114
+      Script: {instanceID: 17472}
+    - Class: 114
+      Script: {instanceID: 17562}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18446}
+    - Class: 114
+      Script: {instanceID: 18908}
+    - Class: 114
+      Script: {instanceID: 18922}
+    - Class: 114
+      Script: {instanceID: 20006}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21266}
+    - Class: 114
+      Script: {instanceID: 21624}
+    - Class: 114
+      Script: {instanceID: 22360}
+    - Class: 114
+      Script: {instanceID: 22448}
+    - Class: 114
+      Script: {instanceID: 22622}
+    - Class: 114
+      Script: {instanceID: 22662}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo4/Cenas/Fase2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 16742}
+    - Class: 114
+      Script: {instanceID: 17472}
+    - Class: 114
+      Script: {instanceID: 17562}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18446}
+    - Class: 114
+      Script: {instanceID: 18908}
+    - Class: 114
+      Script: {instanceID: 18922}
+    - Class: 114
+      Script: {instanceID: 20006}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21266}
+    - Class: 114
+      Script: {instanceID: 21624}
+    - Class: 114
+      Script: {instanceID: 22360}
+    - Class: 114
+      Script: {instanceID: 22448}
+    - Class: 114
+      Script: {instanceID: 22622}
+    - Class: 114
+      Script: {instanceID: 22662}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo4/Cenas/Fase3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 16742}
+    - Class: 114
+      Script: {instanceID: 17472}
+    - Class: 114
+      Script: {instanceID: 17562}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18446}
+    - Class: 114
+      Script: {instanceID: 18908}
+    - Class: 114
+      Script: {instanceID: 18922}
+    - Class: 114
+      Script: {instanceID: 20006}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21266}
+    - Class: 114
+      Script: {instanceID: 21624}
+    - Class: 114
+      Script: {instanceID: 22360}
+    - Class: 114
+      Script: {instanceID: 22448}
+    - Class: 114
+      Script: {instanceID: 22622}
+    - Class: 114
+      Script: {instanceID: 22662}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo4/Cenas/Fase4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17562}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18296}
+    - Class: 114
+      Script: {instanceID: 18310}
+    - Class: 114
+      Script: {instanceID: 18918}
+    - Class: 114
+      Script: {instanceID: 19028}
+    - Class: 114
+      Script: {instanceID: 19438}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 20922}
+    - Class: 114
+      Script: {instanceID: 21172}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21266}
+    - Class: 114
+      Script: {instanceID: 21310}
+    - Class: 114
+      Script: {instanceID: 21756}
+    - Class: 114
+      Script: {instanceID: 21992}
+    - Class: 114
+      Script: {instanceID: 22326}
+    - Class: 114
+      Script: {instanceID: 22622}
+    - Class: 114
+      Script: {instanceID: 22950}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo4/Cenas/Fase5.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17562}
+    - Class: 114
+      Script: {instanceID: 17664}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17834}
+    - Class: 114
+      Script: {instanceID: 17860}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18238}
+    - Class: 114
+      Script: {instanceID: 18336}
+    - Class: 114
+      Script: {instanceID: 18408}
+    - Class: 114
+      Script: {instanceID: 19544}
+    - Class: 114
+      Script: {instanceID: 20458}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21266}
+    - Class: 114
+      Script: {instanceID: 21534}
+    - Class: 114
+      Script: {instanceID: 22012}
+    - Class: 114
+      Script: {instanceID: 22498}
+    - Class: 114
+      Script: {instanceID: 22622}
+    - Class: 114
+      Script: {instanceID: 22898}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo4/Cenas/Fase6.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17562}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18296}
+    - Class: 114
+      Script: {instanceID: 18310}
+    - Class: 114
+      Script: {instanceID: 18918}
+    - Class: 114
+      Script: {instanceID: 19028}
+    - Class: 114
+      Script: {instanceID: 19438}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 20922}
+    - Class: 114
+      Script: {instanceID: 21172}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21266}
+    - Class: 114
+      Script: {instanceID: 21310}
+    - Class: 114
+      Script: {instanceID: 21756}
+    - Class: 114
+      Script: {instanceID: 21992}
+    - Class: 114
+      Script: {instanceID: 22326}
+    - Class: 114
+      Script: {instanceID: 22622}
+    - Class: 114
+      Script: {instanceID: 22950}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo4/Cenas/Fase7.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 16936}
+    - Class: 114
+      Script: {instanceID: 17122}
+    - Class: 114
+      Script: {instanceID: 17158}
+    - Class: 114
+      Script: {instanceID: 17562}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18738}
+    - Class: 114
+      Script: {instanceID: 19538}
+    - Class: 114
+      Script: {instanceID: 20018}
+    - Class: 114
+      Script: {instanceID: 20550}
+    - Class: 114
+      Script: {instanceID: 20658}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 20734}
+    - Class: 114
+      Script: {instanceID: 20826}
+    - Class: 114
+      Script: {instanceID: 20874}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21266}
+    - Class: 114
+      Script: {instanceID: 21574}
+    - Class: 114
+      Script: {instanceID: 21778}
+    - Class: 114
+      Script: {instanceID: 22446}
+    - Class: 114
+      Script: {instanceID: 22622}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/jogo4/Cenas/Fase8.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 102
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 16936}
+    - Class: 114
+      Script: {instanceID: 17122}
+    - Class: 114
+      Script: {instanceID: 17158}
+    - Class: 114
+      Script: {instanceID: 17562}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18738}
+    - Class: 114
+      Script: {instanceID: 19538}
+    - Class: 114
+      Script: {instanceID: 20018}
+    - Class: 114
+      Script: {instanceID: 20550}
+    - Class: 114
+      Script: {instanceID: 20658}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 20734}
+    - Class: 114
+      Script: {instanceID: 20826}
+    - Class: 114
+      Script: {instanceID: 20874}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21266}
+    - Class: 114
+      Script: {instanceID: 21574}
+    - Class: 114
+      Script: {instanceID: 21778}
+    - Class: 114
+      Script: {instanceID: 22446}
+    - Class: 114
+      Script: {instanceID: 22622}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/livro/scenes/AboutCena.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17448}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/livro/scenes/Apresentacao.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 19068}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/livro/scenes/Galeria.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16678}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18324}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21286}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/livro/scenes/LivroAberto.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16678}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 16684}
+    - Class: 114
+      Script: {instanceID: 16786}
+    - Class: 114
+      Script: {instanceID: 17074}
+    - Class: 114
+      Script: {instanceID: 17276}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 19426}
+    - Class: 114
+      Script: {instanceID: 20178}
+    - Class: 114
+      Script: {instanceID: 20568}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 21472}
+    - Class: 114
+      Script: {instanceID: 21688}
+    - Class: 114
+      Script: {instanceID: 22010}
+    - Class: 114
+      Script: {instanceID: 22474}
+    - Class: 114
+      Script: {instanceID: 22480}
+    - Class: 114
+      Script: {instanceID: 22924}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/livro/scenes/pag_10_11.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18324}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 22252}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/livro/scenes/pag_12_13.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18324}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 22252}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/livro/scenes/pag_2_3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18324}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 22252}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/livro/scenes/pag_4_5.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18324}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 22252}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/livro/scenes/pag_6_7.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18324}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 22252}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    Assets/livro/scenes/pag_8_9.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16676}
+    - Class: 114
+      Script: {instanceID: 16680}
+    - Class: 114
+      Script: {instanceID: 16682}
+    - Class: 114
+      Script: {instanceID: 17730}
+    - Class: 114
+      Script: {instanceID: 17928}
+    - Class: 114
+      Script: {instanceID: 18324}
+    - Class: 114
+      Script: {instanceID: 20712}
+    - Class: 114
+      Script: {instanceID: 21190}
+    - Class: 114
+      Script: {instanceID: 22252}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: dd9dda1dfd39e605c49e72003342ef5d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdd713f9bf4e6a625d9e7804deca42
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: b5007673bbbdb9d12597a1d8201370f5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: b747f5d40674055dd70e18552f1b0447
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 55060a7bf226ac385ce19ebd450f199f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: dc80254bfaa42a6781e357cfb2aa3f94
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Spawn_brinquedos
+  - hash:
+      serializedVersion: 2
+      Hash: bc9e5df4730dc2e3e91e4b81a4e8e6b1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameOver
+  - hash:
+      serializedVersion: 2
+      Hash: 33b84420b8d3de103013b7cb5b811e31
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao3
+  - hash:
+      serializedVersion: 2
+      Hash: 5b2dc8d183753e3065f47a848722b4b7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Camira1
+  - hash:
+      serializedVersion: 2
+      Hash: 283786db8c4c2edcba1ce0c3869d7989
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Timer1
+  - hash:
+      serializedVersion: 2
+      Hash: e2afc372f29840508fdfee58fe59576f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Player1
+  - hash:
+      serializedVersion: 2
+      Hash: f45600bcc886206dd55a3208474aad61
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollbarValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a3901985eb076c1c9b7562fca82ca3e0
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 8dff8e9853297d341afa0c11f9091b59
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 00bbd9db8634496d079d17711b2ff7c4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 2e42261565c5194917ec5469c76a7a11
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Obstaculos
+  - hash:
+      serializedVersion: 2
+      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 7684be01ee104d616c5c8ba0732cc62a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao1_4
+  - hash:
+      serializedVersion: 2
+      Hash: f778e23b6ff26b8de4721be0eb1fa240
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0599ac8e3ab3fd539bbe450472b1e0d8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Gerenciador2_1
+  - hash:
+      serializedVersion: 2
+      Hash: f854af586011dd194574f89546642e29
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b06097026a91bc126418fe743d2baae9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Book
+  - hash:
+      serializedVersion: 2
+      Hash: e060d0a447e8e7ee3c2e0212a8e73f6d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuPause1
+  - hash:
+      serializedVersion: 2
+      Hash: 0efa85b79b08f313b997b3b31aa722a3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp5_4
+  - hash:
+      serializedVersion: 2
+      Hash: 609a4e449f71a942ad55a77768bef026
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp2_4
+  - hash:
+      serializedVersion: 2
+      Hash: 8897e0caebbb332550c5ca94f8a0f960
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Camira
+  - hash:
+      serializedVersion: 2
+      Hash: 609a45b1a850db51c704c4c59d05658e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Zoom
+  - hash:
+      serializedVersion: 2
+      Hash: d7d8e79b1a71ca6a765203c60c0a72af
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Timer
+  - hash:
+      serializedVersion: 2
+      Hash: b12640dfdb5966813e9dd838893e6c4a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0c6de72eaf8c1070da824268c4bfad9d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: ad49e20f31ed572e586aa8bbaafb591b
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1bc6ff8d02d2d68019aa6a028f8d409d
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7e93247d600e115dac0cdd880de94e99
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 83cfda82082c233d96cc677c19f57e07
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab136900c0edaeeb49424c852595030
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: f24aec36a4eda23b1d7734256feea9f7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: About
+  - hash:
+      serializedVersion: 2
+      Hash: cf2da0bd4924622f17e04bdc2ed1f5da
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp4
+  - hash:
+      serializedVersion: 2
+      Hash: 9bf32577ca21c1860e83544316c7d204
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: racao_pequena
+  - hash:
+      serializedVersion: 2
+      Hash: 2a38421b1f1d934bd6d0b91d7b55d8f3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Pause
+  - hash:
+      serializedVersion: 2
+      Hash: dac21e94f04399b2e3750a5eac9164fd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: popUp
+  - hash:
+      serializedVersion: 2
+      Hash: 1321993db8249e1e05e1e0492b2bbdc3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 32af60d9dcb5645aae60d4a54f9dccac
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp1_2
+  - hash:
+      serializedVersion: 2
+      Hash: e987953190eb4c12cf19df790566dc2c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 52db48e3be0a2b4f8b06f918fd1ebfbc
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f295412bc00b58b9095a71e9764cc886
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 04b6685b6f724c0d6024e6b6f96c8202
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ada873da50974d1e7ce247ffb296b0f3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7e12302f66e3c8ed5bcfea4ce65fccea
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a3e7e4ac4b48c300989aa47330fb1181
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp5_2
+  - hash:
+      serializedVersion: 2
+      Hash: dd07bb31ca20f50150b2138aa437ade8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao1_2
+  - hash:
+      serializedVersion: 2
+      Hash: fce9b835d1e8b08e7ecea8da19f21986
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: CoroutineRunner
+  - hash:
+      serializedVersion: 2
+      Hash: 6ddf94363c6ce4b02d9fdd51290cb0f9
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 28fd3d045acc780719a17f02073eb448
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6dc3d79712ca4934f6d50c80f010b1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 6d394de691f6d0187f61c08889353d0e
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnButtonClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e23d2210701e34e6850023cabe554c1f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldEndEditMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bf40c7a9dc15bc219687c9838aa9b41f
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: b98001682cba83786775c9e415b89a61
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDropdownValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c7ffaf379c5079fdff4c1e274ad88bcf
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ObjetoInterativo
+  - hash:
+      serializedVersion: 2
+      Hash: f748d2588e25b5786ccefbb94dd585cc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuVitoria_3
+  - hash:
+      serializedVersion: 2
+      Hash: a1ac4c50e55874de16eee3db71aa9784
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b40f52512b1d920b38953729450ef78e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AutoFlip
+  - hash:
+      serializedVersion: 2
+      Hash: c30002f04145ee0e5976ab82b105fa0c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao2_2
+  - hash:
+      serializedVersion: 2
+      Hash: d90629714fa6b0145fcaffc87f5c6559
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnInputFieldValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: bb8d968ef4474e71aaad4a4dce279f90
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 55f7478791f10bd21c56f4cd6e11a928
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp4_3
+  - hash:
+      serializedVersion: 2
+      Hash: af9b0508aa5f8864a02d8024836b2c35
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao5_3
+  - hash:
+      serializedVersion: 2
+      Hash: 3011aa56847f5b5e7b03bed89768357d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: VoltarPag
+  - hash:
+      serializedVersion: 2
+      Hash: b6307dfc54cca9ba44f47185c578b0ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c09e818c5f55281db2d1f60d58930986
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Vitoria_2
+  - hash:
+      serializedVersion: 2
+      Hash: d7c8092511063e0dae8106bfc8ed63dd
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 715f7928b39881049ce8c46350cb8681
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: c6369b4cc3be620d6c9300e920bc3d52
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 616f14304f0186edb6d9330a21ce7442
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao5_2
+  - hash:
+      serializedVersion: 2
+      Hash: a6849c72f7a6a2f5d5c55c2c314ad3e1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp2
+  - hash:
+      serializedVersion: 2
+      Hash: 7bdff9e91edfd9600f92a185def7e34a
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptMachine
+  - hash:
+      serializedVersion: 2
+      Hash: 43ebd945b04bced376c791411cf5a289
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5b8b7230ad968399f6726aa1269dcdcb
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: cf32d98954e63b8e30e9334b152e9b8e
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 7fafa2dcd563de72d33aed000007f0dd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PauseMini1
+  - hash:
+      serializedVersion: 2
+      Hash: 567209c41195f7d558d004bfed76a97d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Energia
+  - hash:
+      serializedVersion: 2
+      Hash: e6f8333cc8a800e2866870a5ef7efc35
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnControllerColliderHitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 960935b102b3064f4b924de16426e340
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: b2d2a01a2a85d9ed12e80cb33a9a6044
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6217b1287eca7eed313cf0b864249a30
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ea76e4270da2cfb8c1e9fbf99500730d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp4_4
+  - hash:
+      serializedVersion: 2
+      Hash: 0a3f328f3ea906bbbcf794f4c27ee59d
+    assemblyName: Unity.VisualScripting.Flow
+    namespaceName: Unity.VisualScripting
+    className: ScriptGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 547d6df29d52f0662c2ffd39ffebf65d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Timer5
+  - hash:
+      serializedVersion: 2
+      Hash: fb79e95da8891fc7ac6c36ca6967af23
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 94510556ce5f8201bb2783179eda49e2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SpawnMeioObstaculo
+  - hash:
+      serializedVersion: 2
+      Hash: 552dca338f20933ce362ebbe559a6aa6
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 80d9eb6cfeaa99167cc8d272bfe91b08
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Fase1
+  - hash:
+      serializedVersion: 2
+      Hash: ebcf1ae3e506267cade88f9fd831ae89
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao1_3
+  - hash:
+      serializedVersion: 2
+      Hash: c43552e76ee978806e622045ef513d6d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp3
+  - hash:
+      serializedVersion: 2
+      Hash: 4509dbef16f3e5aab8938214ddbb3d21
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Gerenciador2op3
+  - hash:
+      serializedVersion: 2
+      Hash: 651d770531c80997cae0ffd7ada42be3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao3_3
+  - hash:
+      serializedVersion: 2
+      Hash: 0decc83986d53deb95dc1126917ab1d1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PreJogo
+  - hash:
+      serializedVersion: 2
+      Hash: 4718916586b3818eb69bf65df61f0f3a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 185e7bacfbbc5defefa609c70f7ff4ce
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 682dfc653b22feea53b38adb3bc66414
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: c78ed13f6b5a632d70d4f73f56ad81f2
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: VariablesSaver
+  - hash:
+      serializedVersion: 2
+      Hash: 7053e305cdc1eb560f4c3be49d3b5136
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 042785b832afb73fd0585521aa7baf43
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1a680d9a08de79b0d2c779e78c9843b4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: c933b590b3badb5918fa01e73cd5cc0c
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: ca7965796a6fc0e5baad4cb19f5b5ded
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnJointBreak2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9ebc0a3016506a0cbb7e0306dfcb9497
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: DictionaryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 39268ccedf89112c0b216303dadf0413
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: racao_grande
+  - hash:
+      serializedVersion: 2
+      Hash: 43465a8c4c74b4978fc431422e751101
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Abrir_menu
+  - hash:
+      serializedVersion: 2
+      Hash: e7e95903ca66d58e1a7cbd71f824e16d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 3e096ad12c64801b617d67e0adc5d8a8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Spawn_racoes
+  - hash:
+      serializedVersion: 2
+      Hash: abb31fec49f2a728a5e7f215c87527f7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuDerrota_4
+  - hash:
+      serializedVersion: 2
+      Hash: 588a09a39c68c36e98a7f6df12fcc7b9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HudScript
+  - hash:
+      serializedVersion: 2
+      Hash: 49b5ba232bdb36a19a35e9d4e5998a74
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp1_3
+  - hash:
+      serializedVersion: 2
+      Hash: 9078325c2a6f6a2d9612ade897511860
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ea2986f27f4cf6c5f79efff6f484ac4f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 96e7bcfd2d072992dab64ac44058b930
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCancelMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2a6bbdb1a83d8677275e14dd26c3722d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lixeira
+  - hash:
+      serializedVersion: 2
+      Hash: 4be6edd9a5a3562514e657366a738958
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao3_4
+  - hash:
+      serializedVersion: 2
+      Hash: 0925f8d028aeb99627a2db801c121099
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao4_2
+  - hash:
+      serializedVersion: 2
+      Hash: efc72e844e60013c00b9d7fc30676aef
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: brinquedo
+  - hash:
+      serializedVersion: 2
+      Hash: d80f837374da2a40034ceb11bcd4c697
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuDerrota
+  - hash:
+      serializedVersion: 2
+      Hash: 7e9cad7f71f9cc52f699bbd2d2a75734
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerClickMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6ed8e7836940147497206af4be4de1db
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Pena
+  - hash:
+      serializedVersion: 2
+      Hash: 969867dc945495e1255f369c61826c6d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SpawnPedra
+  - hash:
+      serializedVersion: 2
+      Hash: 0b63f6d3335e11939ce8790b904c8691
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 634de06e0d7c572af4ed60e16bd8ab20
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuDerrota_2
+  - hash:
+      serializedVersion: 2
+      Hash: e402a382f213255c22bda9254dd831b3
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: SceneVariables
+  - hash:
+      serializedVersion: 2
+      Hash: e88d71ef93aba4e7faf243430f6a10ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: MacroScriptableObject
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc40a01667ca02b3354a4e7a61be082
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: bd6f64eb4fe85bd63c1bc55740acd459
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Ilustracoes
+  - hash:
+      serializedVersion: 2
+      Hash: bc050712fce5c28cbc18bc1da5e7bc7a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Gerenciador
+  - hash:
+      serializedVersion: 2
+      Hash: 8a2f78c25d5e92eb97ee5544a162a2e9
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshLink
+  - hash:
+      serializedVersion: 2
+      Hash: f2098fcd8ee983a05ec192f63904298f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnEndDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: db9b308769d19e1f9e161df0392c23ca
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTransformChildrenChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6d94138b60a9299798dda96c1ee6725f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBeginDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 51b80d3734ea86b38e3101db98029e15
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ae4c1bf838170d98cb56a3213857d783
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Fade1
+  - hash:
+      serializedVersion: 2
+      Hash: 47ee34eb8b6021efa0289dbbb17a5a85
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: ec6cf673540b2d4e42c612611eeafe4d
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStayMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d7c62ab87f963eb0217ac4e13afd5a4e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao1
+  - hash:
+      serializedVersion: 2
+      Hash: 32f3ef1072fd78b2e832124f9ab905d8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuDerrota_3
+  - hash:
+      serializedVersion: 2
+      Hash: 5fb66afa5c7b2671f8de27a8fee033a4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao5_4
+  - hash:
+      serializedVersion: 2
+      Hash: e0a00c2fd59300d77ccba24a9f6767ad
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lixo
+  - hash:
+      serializedVersion: 2
+      Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 522f6865b4ec12522e602206785309f8
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: GlobalMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 53e329840e6d03aebec76623c3b054db
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 33f160a5c07e580c29aba2bd1e4db811
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 191cd500c627cd6682ef6f70b8e47f2c
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 0c0b64d103fe555d830e8ca206abd12a
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 17f82e3e7d8f8b07a270a4aad9bfe79d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 061a5d77ce0aa52a60c21c566c6d8af2
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshModifierVolume
+  - hash:
+      serializedVersion: 2
+      Hash: 72c6d4309e0407d760c90ebdc5aca9a0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FechaPreload
+  - hash:
+      serializedVersion: 2
+      Hash: 3301959e597a65b929a993fd1dae9fc9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Gerenciadorop2
+  - hash:
+      serializedVersion: 2
+      Hash: d82086405f46de14829f6b4bcbdd8fc9
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnBecameInvisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5874b789cd9832847c61ebfa803213af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: d55992199bd2f5a5502658391cdf8ba7
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshSurface
+  - hash:
+      serializedVersion: 2
+      Hash: 9dd54ce33440072d6692a67e0c384ad1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: bf0842d88681628b29beb00b5e2ab785
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDeselectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: e88a951f72518e076ae59328acb68bcb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao3_2
+  - hash:
+      serializedVersion: 2
+      Hash: c186a69756f88f0fe67540e6d528a271
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Gerenciador2op2
+  - hash:
+      serializedVersion: 2
+      Hash: b5ab8f45c7e8e80e2e185f656bdfb127
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao4_4
+  - hash:
+      serializedVersion: 2
+      Hash: 1ce63d97d1ca25cba2d91d5f32fd5f79
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 455c36b94744138ffac6c06563c8942f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Urls
+  - hash:
+      serializedVersion: 2
+      Hash: fa143eec47c3b42be42a1cb279bb5e28
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp1_4
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 8eb502283ce378c1220696fe665704f1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Fase4
+  - hash:
+      serializedVersion: 2
+      Hash: ef38c1407dba8c1f5d69f5db61a694fe
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: AnimatorMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 33656f83bb0079184b2206a69690ec46
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 793fffd2547fc49ada476a6f35441c43
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao2_4
+  - hash:
+      serializedVersion: 2
+      Hash: 9637dcdf3068a91dfe653e61bb82f13d
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: d53fa688411c0a5d5a17644304cd3fac
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp3_4
+  - hash:
+      serializedVersion: 2
+      Hash: aa366de6239395a2386b5ad6175f4795
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp2_3
+  - hash:
+      serializedVersion: 2
+      Hash: d6b924eec8b3cfdf007698cbcc73a192
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScrollingScript1
+  - hash:
+      serializedVersion: 2
+      Hash: 1e6a37d06cd15100bea8f001f30db937
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Gerenciadorop3
+  - hash:
+      serializedVersion: 2
+      Hash: 052160cc5cf2c496d2a945b28fc8f4f9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuVitoria_4
+  - hash:
+      serializedVersion: 2
+      Hash: adf4a4ef05c6ab2e586671c8a771d889
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Score1
+  - hash:
+      serializedVersion: 2
+      Hash: 2e000ceb1451d9de11701715efa08878
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Conjuntos_destruidor
+  - hash:
+      serializedVersion: 2
+      Hash: da5a949a0bbd2ff91bc51c5805c2c41f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4f353524ce6564e40764f1ea080b2d85
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerStay2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b0d266392c212080f77be2288a77268a
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao2_3
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: a90f6a00b23520788be7d89ee3b0773d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 13f262cc0741566a7ab72682984bc3e1
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: febcfbf0a0d85e37808a3740e3c2c6fa
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 68f2cb287af2eee1f639824485a3402b
+    assemblyName: Unity.AI.Navigation
+    namespaceName: Unity.AI.Navigation
+    className: NavMeshModifier
+  - hash:
+      serializedVersion: 2
+      Hash: 672716ae97f6ddb615fa5ac3ec9da349
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: fdeefc75a285175203e48b7a4799d68f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Musica
+  - hash:
+      serializedVersion: 2
+      Hash: 9e6bcfccbb5b021686fc74ae7bb6fa1d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: WinLoose
+  - hash:
+      serializedVersion: 2
+      Hash: 83182c3596398d4522031933b2aea341
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Book2
+  - hash:
+      serializedVersion: 2
+      Hash: 655065dbf71e3ef9950b11a4ac8974d5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao4_3
+  - hash:
+      serializedVersion: 2
+      Hash: 8bbce9932f67ad8e7f4eefec87800f94
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 5a21d1ce30939825db30dbcb44275609
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DogMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 4f57f79b7edb87d89c4143d7b6a7b76f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SelecPage
+  - hash:
+      serializedVersion: 2
+      Hash: a83540977c23baa143a23da3168c9a11
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ObjetoCorreto
+  - hash:
+      serializedVersion: 2
+      Hash: f669be52680c88846b2093fd41d1e06e
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnDragMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5215905ae6d0949cbfc4650a1f3fa240
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp2_2
+  - hash:
+      serializedVersion: 2
+      Hash: 20a120e55ad3ab65556328d5fd8309dd
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 8ecf622b01db630fe040a6fa5b071394
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuPause
+  - hash:
+      serializedVersion: 2
+      Hash: 6b79b292e21e3fe12b851666aab15db0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp6_4
+  - hash:
+      serializedVersion: 2
+      Hash: 2fba72b875c48f05102e079f956a8159
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Pula
+  - hash:
+      serializedVersion: 2
+      Hash: 17142b03663387290480c82303274c02
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f2305da2400dfe6f069770a1a63f0f7c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 003228b050db4e23a40c58be9d7df90d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao2
+  - hash:
+      serializedVersion: 2
+      Hash: 8d2ec5453aa0f56deebe18e0b27b0037
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SpawnLixeira
+  - hash:
+      serializedVersion: 2
+      Hash: a91c12f6eb92139294780a4817175689
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ControlaFase
+  - hash:
+      serializedVersion: 2
+      Hash: c4b85a67513b4f0cf7b5fb2d5ded04b0
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnCollisionExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d2ecd94550edf1b56aff07b1f4e41c57
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerEnter2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 7bb32d6e4c7614a97d9723ce7e26588c
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: BasicPlayableBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: d147cf7174e7fd7274ea0ca30779180c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Vitoria_3
+  - hash:
+      serializedVersion: 2
+      Hash: e8d390bd9ecacc453a7500b90d0c0292
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 19824dd35debb3fff0983df49f8359ab
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 1fcec2a6c0e1141cdb58a4be8206c303
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao6_4
+  - hash:
+      serializedVersion: 2
+      Hash: afb7b65d28d5a7423e69a1b076be0064
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: ef368c7478658d1b7673aeacd3816f74
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Spawn_pena
+  - hash:
+      serializedVersion: 2
+      Hash: 6a0b5b415c00f783202fd1ae2d556cb2
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b14e186823458f549289789cccbb77ce
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnPointerDownMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ee34255e3e86289bde9bad5e07b84cbc
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 830c3b545f6e6ee60a4cebab90516f2c
+    assemblyName: UnityEngine.TestRunner
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: a89b0448af4e1cd103a77f9fec0a961f
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSubmitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 082e636728d206f3d2137c01647839e0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp3_3
+  - hash:
+      serializedVersion: 2
+      Hash: a7401994d33b8ab667ed930d3ff722bc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Fade2
+  - hash:
+      serializedVersion: 2
+      Hash: 07e9a487f16f850e8c0a2a4fb111fada
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Urls2
+  - hash:
+      serializedVersion: 2
+      Hash: cb0aece609259687c67e31dd9eec1ee0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp3_2
+  - hash:
+      serializedVersion: 2
+      Hash: 4728e3d21cc2a12e391e71ec9b7eed0b
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 67272c9c30c50b68ef1ce72ac0191c57
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMoveMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: a3e27221667dc71a509ace7c12998bba
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: gerenciador2_2
+  - hash:
+      serializedVersion: 2
+      Hash: d0392b7f3f52d5af537ade186b4f51f1
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 8fe04a5342937c765dd57e79f82fa6d3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuVitoria
+  - hash:
+      serializedVersion: 2
+      Hash: 0b400c7162305ca0d14445d68a444aeb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Fase3
+  - hash:
+      serializedVersion: 2
+      Hash: 7b21d8c43fb65400955ee50fefddcf88
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuVitoria_2
+  - hash:
+      serializedVersion: 2
+      Hash: e2ee791c512d59188bf3fbe381c21603
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Vitoria
+  - hash:
+      serializedVersion: 2
+      Hash: 84662b908399cb74f76a9830a2dd66fc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScrollingScript
+  - hash:
+      serializedVersion: 2
+      Hash: 6756b953def22ebd7844c6fb4ced840f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Score
+  - hash:
+      serializedVersion: 2
+      Hash: 803bcc021ed89055169dd00f6b1fe045
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: FecharJogo
+  - hash:
+      serializedVersion: 2
+      Hash: 32e67d3faa35ea8af223910cacb1a60d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Vitoria_4
+  - hash:
+      serializedVersion: 2
+      Hash: 596d9d054b9e6d3bae1f7f5622a6dacf
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp1
+  - hash:
+      serializedVersion: 2
+      Hash: e533b9e8f4e8df2d0771444a4f79d4e6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuPrincipal
+  - hash:
+      serializedVersion: 2
+      Hash: 9a174471d4db2c0c6d3ac47d2f818db1
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c1daf690e3f45e730841c375a7e61a7b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SelecaoFase
+  - hash:
+      serializedVersion: 2
+      Hash: 198782ec71c7a19ea34a3fd7996ad17d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: teste
+  - hash:
+      serializedVersion: 2
+      Hash: 399683aacf5f8e20d035c710967bfc38
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp4_2
+  - hash:
+      serializedVersion: 2
+      Hash: 0f5a086d4d028363983ba6ca30a01397
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseOverMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9b88d90af39acabd6bc87211389618b4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScriptMenu
+  - hash:
+      serializedVersion: 2
+      Hash: 2c583ad0ac85d03e8700dd05fdcb46cb
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: Variables
+  - hash:
+      serializedVersion: 2
+      Hash: b30c8635462e66ac20f4241106119f77
+    assemblyName: Unity.VisualScripting.State
+    namespaceName: Unity.VisualScripting
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: c8b67c78009b2428ebb9498162b94322
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Pedra
+  - hash:
+      serializedVersion: 2
+      Hash: 568292fb7ea6c4f7a667e5ff76bc7e85
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseUpMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4179ac38a9c6daeaf9190229ba0cfbe6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AbrePause
+  - hash:
+      serializedVersion: 2
+      Hash: 1553f209ae0b2d5d3a35685fca55f9c3
+    assemblyName: Unity.TextMeshPro
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: b5748ea10eeae8190b8b59d710789505
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Botao4
+  - hash:
+      serializedVersion: 2
+      Hash: a868c2975876b679a8f9fbe5d1023e40
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SpawnLixo
+  - hash:
+      serializedVersion: 2
+      Hash: ff76cf6cf52b4db7b95af6ffadca9288
+    assemblyName: Unity.Timeline
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 02a47340661d2ea7c6d30e292cfef403
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnToggleValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f03416fc1a3422c7cfad3ee6d57f1b4b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: abrir_menu
+  - hash:
+      serializedVersion: 2
+      Hash: fe658beb0a989437b3ef771c34bd6618
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Fase2
+  - hash:
+      serializedVersion: 2
+      Hash: 8bf800a764665b085fe469e8aea7f167
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnMouseEnterMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f02720ae594b5c7ba72a5a2a2628d8f5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Lamp5_3
+  - hash:
+      serializedVersion: 2
+      Hash: 00eef92bf387da2c9009267123d9d674
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnTriggerExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 8b15e35eb98fc258ec2e839df7c3c9b0
+    assemblyName: Unity.VisualScripting.Core
+    namespaceName: Unity.VisualScripting
+    className: UnityOnSliderValueChangedMessageListener
+  platform: 20
+  scenePathNames:
+  - Assets/livro/scenes/Apresentacao.unity
+  - Assets/livro/scenes/AboutCena.unity
+  - Assets/livro/scenes/Galeria.unity
+  - Assets/livro/scenes/LivroAberto.unity
+  - Assets/livro/scenes/pag_10_11.unity
+  - Assets/livro/scenes/pag_12_13.unity
+  - Assets/livro/scenes/pag_2_3.unity
+  - Assets/livro/scenes/pag_4_5.unity
+  - Assets/livro/scenes/pag_6_7.unity
+  - Assets/livro/scenes/pag_8_9.unity
+  - Assets/jogo1/assets/Cenas/CenaJogo1.unity
+  - Assets/jogo1/assets/Cenas/CenaJogo2.unity
+  - Assets/jogo1/assets/Cenas/CenaJogo3.unity
+  - Assets/jogo2/Cenas/memoria.unity
+  - Assets/jogo2/Cenas/memoriaop2.unity
+  - Assets/jogo2/Cenas/memoriaop3.unity
+  - Assets/jogo2/Cenas/memoria2.unity
+  - Assets/jogo2/Cenas/memoria2op2.unity
+  - Assets/jogo2/Cenas/memoria2op3.unity
+  - Assets/jogo3/Cenas/sena.unity
+  - Assets/jogo4/Cenas/Fase1.unity
+  - Assets/jogo4/Cenas/Fase4.unity
+  - Assets/Jogo5/Cenas/Game.unity
+  - Assets/jogo4/Cenas/Fase2.unity
+  - Assets/jogo4/Cenas/Fase5.unity
+  - Assets/jogo4/Cenas/Fase3.unity
+  - Assets/jogo4/Cenas/Fase6.unity
+  - Assets/jogo4/Cenas/Fase7.unity
+  - Assets/jogo4/Cenas/Fase8.unity
+  playerPath: C:/Users/gabri/Desktop/Projects/Playbook WebGL build
